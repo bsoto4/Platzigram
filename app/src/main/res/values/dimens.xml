@@ -13,4 +13,5 @@
     <dimen name="text_size_cardview">15sp</dimen>
     <dimen name="margin_left_cardview">5dp</dimen>
     <dimen name="like_margin_top">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
 </resources>

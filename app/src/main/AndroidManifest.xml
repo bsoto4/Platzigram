@@ -15,7 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.CreateAccountActivity"
             android:parentActivityName=".activity.LoginActivity">
@@ -23,11 +22,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.LoginActivity" />
         </activity>
-
         <activity
             android:name=".activity.TextActivity"
             android:label="@string/title_activity_text"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ContainerActivity"></activity>
     </application>
 
 </manifest>
