@@ -1,6 +1,7 @@
 package com.zeze.platzigram.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 import com.zeze.platzigram.R;
+import com.zeze.platzigram.activity.PictureDetailActivity;
 import com.zeze.platzigram.model.CardPicture;
 
 import java.util.ArrayList;
@@ -41,6 +44,14 @@ public class RecyclerViewCardAdapter extends RecyclerView.Adapter<RecyclerViewCa
         holder.tv_username.setText(card.getUsername());
         holder.tv_time.setText(card.getTime());
         holder.tv_like.setText(card.getLike());
+        Picasso.with(activity).load("http://i.imgur.com/DvpvklR.png").into(holder.img_card);
+        holder.img_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     @Override

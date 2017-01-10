@@ -17,9 +17,11 @@
     <string name="time">4 días</string>
     <string name="like">6 Me gusta</string>
     <string name="tab_search">Buscar</string>
-    <string name="tab_home">Home</string>
+    <string name="tab_home">Inicio</string>
     <string name="tab_profile">Yo</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_image">"Catedral de Huamanga"</string>
+    <string name="lorem">Gracias por la respuesta, tengo Android Studio 2.2.3 y uno de los íconos sería el del engranaje de color celeste que aparece al final de los íconos (no el de barra del título), y también hay otros que ha utilizado y ahora no recuerdo, pero que aparecen en el video, pero no vienen en la configuración por defecto de Android Studio.</string>
 </resources>

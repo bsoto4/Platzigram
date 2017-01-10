@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        //showToolbar("ASDASD",false, view);
+        showToolbar(getResources().getString(R.string.tab_home),false, view);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerview_picture);
         linearLayoutManager = new LinearLayoutManager(getContext());
