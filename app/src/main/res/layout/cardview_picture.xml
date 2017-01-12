@@ -15,6 +15,7 @@
             android:id="@+id/img_cardview"
             android:layout_width="match_parent"
             android:layout_height="@dimen/cardview_height"
+            android:transitionName="@string/img_transition"
             android:scaleType="centerCrop"
             android:src="@drawable/catedral" />
 

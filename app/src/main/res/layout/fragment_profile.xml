@@ -60,7 +60,7 @@
         android:layout_width="@dimen/image_diameter"
         android:layout_height="@dimen/image_diameter"
         android:layout_gravity="center|top"
-        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginTop="30dp"
         android:elevation="@dimen/elevation_circle"
         android:src="@drawable/catedral"
         app:dependTargetY="@dimen/limitY_circleimage"
